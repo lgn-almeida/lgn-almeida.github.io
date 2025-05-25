@@ -8,11 +8,11 @@ $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 
-$background                 : #474747;
+$background                 : #282828;
 $background-light           : mix(#fff, $background, 80%);
 $background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #000;
+$text                       : #e8e8e8;
+$link                       : #fff;
 $link-dark                  : mix(#000, $link, 25%);
 $link-light                 : mix(#fff, $link, 25%);
 
@@ -51,4 +51,5 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
+    --author-text-color                 : #fff;
 }
